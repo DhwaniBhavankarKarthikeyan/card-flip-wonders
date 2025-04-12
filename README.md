@@ -12,19 +12,28 @@ Built with HTML, CSS, JavaScript, and Bootstrap, each card displays:
   b.  Back Face: A one-line, insightful description of the Wonder of the World.
 
 **B. Purpose:**
+
 The project combines aesthetics with education, providing users a visually engaging way to learn about world heritage. 
+
 It also serves as a simple, effective demonstration of interactive web UI components using core front-end technologies.
 
 **C. Utilities to Users:**
- -> Offers an interactive learning experience with visual content
- -> Provides quick, digestible facts about global landmarks
- -> Demonstrates use of CSS transitions and 3D transforms
- -> Ideal for beginners to explore how HTML, CSS, JS, and Bootstrap integrate to create responsive, animated interfaces
+ -> Offers an interactive learning experience with visual content.
+ 
+ -> Provides quick, digestible facts about global landmarks.
+ 
+ -> Demonstrates use of CSS transitions and 3D transforms.
+ 
+ -> Ideal for beginners to explore how HTML, CSS, JS, and Bootstrap integrate to create responsive, animated interfaces.
 
 **D. Technologies Used:**
+
 -> HTML5 – Content and structure
+
 -> CSS3 – Styling and card flip animations
+
 -> JavaScript (Vanilla) – Event control and dynamic behavior
+
 -> Bootstrap 5 – Grid system and responsive design utilities
 
 **E. How to Use the Application:**
