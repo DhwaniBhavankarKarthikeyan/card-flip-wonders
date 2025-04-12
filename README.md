@@ -47,7 +47,7 @@ It also serves as a simple, effective demonstration of interactive web UI compon
 To run the project locally:
 
 a. Clone the Repository - 
-git clone https://github.com/yourusername/card-flipping-project.git
+git clone https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
 
 b. Navigate to the Project Directory
 cd card-flipping-project
