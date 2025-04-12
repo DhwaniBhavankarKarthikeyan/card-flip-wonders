@@ -1,7 +1,9 @@
 # card-flip-wonders
+
 Card Flipping Project – 7 Wonders of the World
 
 A. Overview:
+
 This is a front-end web application that visually showcases the Seven Wonders of the World using an elegant card-flipping animation. 
 
 Built with HTML, CSS, JavaScript, and Bootstrap, each card displays:
