@@ -49,11 +49,13 @@ To run the project locally:
 a. Clone the Repository - 
 git clone https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
 
-b. Navigate to the Project Directory
+b. Navigate to the Project Directory:
 cd card-flipping-project
 
-c. Open in Browser Open the index.html file in any modern web browser by double-clicking it or launching it via a local server.
+c. Open in Browser:
+Open the index.html file in any modern web browser by double-clicking it or launching it via a local server.
 
-d. Interact with Cards Hover over (or click on, if configured) the cards to flip them and read a short description on the reverse side.
+d. Interact with Cards:
+Hover over (or click on, if configured) the cards to flip them and read a short description on the reverse side.
 
 
