@@ -106,5 +106,3 @@ chmod +x run.sh
 MIT License. Free to use, modify, and share.
 
 ---
-
-Let me know if you'd like me to customize the GitHub URL, add more automation (e.g., auto-deploy with GitHub Actions), or include additional features like JavaScript effects!
