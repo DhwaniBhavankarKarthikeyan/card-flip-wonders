@@ -90,7 +90,7 @@ chmod +x run.sh
 1. Push your project to a GitHub repo.
 2. Go to **Settings > Pages**.
 3. Under **Source**, select the root branch.
-4. Your site will be live at `https://yourusername.github.io/7-wonders-flipcard/`
+4. Your site will be live at https://github.com/DhwaniBhavankarKarthikeyan.github.io/card-flip-wonders
 
 ---
 
