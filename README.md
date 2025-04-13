@@ -8,7 +8,7 @@ This is a responsive and interactive webpage built using **HTML**, **CSS**, and 
 ---
 
 ### 📸 Demo
-https://yourusername.github.io/7-wonders-flipcard/ *(Replace with actual link if deployed)*
+https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
 
 ---
 
