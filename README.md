@@ -43,7 +43,7 @@ https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/7-wonders-flipcard.git
+   git clone [https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders]
    cd 7-wonders-flipcard
    ```
 
