@@ -7,11 +7,6 @@ This is a responsive and interactive webpage built using **HTML**, **CSS**, and 
 
 ---
 
-### 📸 Demo
-https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
-
----
-
 ### 📁 Project Structure
 
 ```
