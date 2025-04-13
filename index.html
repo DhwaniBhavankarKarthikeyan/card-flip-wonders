@@ -1,111 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Card Flip with Bootstrap</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    /* Flip Card Container */
-    .flip-card {
-      perspective: 1000px;
-      height: 250px;
-    }
-
-    /* Inner wrapper that will flip */
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-    }
-
-    /* Add hover effect on the .flip-card */
-    .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-
-    /* Front and Back sides */
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-    }
-
-    /* Front */
-    .flip-card-front {
-      background: #ffffff;
-      color: #000;
-    }
-
-    /* Back */
-    .flip-card-back {
-      background: #007bff;
-      color: white;
-      transform: rotateY(180deg);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Wonders of the World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <div class="container py-5">
-    <h2 class="text-center mb-5">7 Wonders of the World</h2>
-    <div class="row g-4">
-
-      <!-- Card 1 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Card 1 Front</h5>
+    <div class="container mt-5 text-center">
+        <h1 class="mb-4">7 Wonders of the World</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://www.tripsavvy.com/thmb/S6Daq_joeyN3xU0Bz3Qt7QGe0YM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-654013042-28f42fc82c544a9fb0f74458b85de713.jpg" alt="Great Wall of China">
+                        </div>
+                        <div class="card-back">The Great Wall of China, built to protect China from invasions.</div>
+                    </div>
+                </div>
             </div>
-            <div class="flip-card-back">
-              <p>This is the back of Card 1 with more information.</p>
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg" alt="Petra">
+                        </div>
+                        <div class="card-back">Petra, Jordan: An ancient city known for its rock-cut architecture.</div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://transcode-v2.app.engoo.com/image/fetch/f_auto,c_lfill,w_300,dpr_3/https://assets.app.engoo.com/organizations/5d2656f1-9162-461d-88c7-b2505623d8cb/images/6XY2BQvQLh8Rtjop9TTPcQ.jpeg" alt="Christ the Redeemer">
+                        </div>
+                        <div class="card-back">Christ the Redeemer, Brazil: A famous statue of Jesus Christ in Rio de Janeiro.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://www.peru.travel/Contenido/Noticia/Imagen/en/2052/1.0/Principal/circuits_mapi_Desktop.jpg" alt="Machu Picchu">
+                        </div>
+                        <div class="card-back">Machu Picchu, Peru: An Incan citadel set high in the Andes Mountains.</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Card 2 Front</h5>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://img.static-kl.com/images/media/265EFF4B-A104-4DA9-83F03C998B03B1FE?w=960" alt="Chichen Itza">
+                        </div>
+                        <div class="card-back">Chichen Itza, Mexico: A large pre-Columbian archaeological site.</div>
+                    </div>
+                </div>
             </div>
-            <div class="flip-card-back">
-              <p>This is the back of Card 2 with more information.</p>
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://res.cloudinary.com/dtljonz0f/image/upload/iconic-flavian-amphitheatre-ancient-roman-colosseum" alt="Colosseum">
+                        </div>
+                        <div class="card-back">Colosseum, Italy: An ancient amphitheater in Rome, known for gladiator battles.</div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-md-3">
+                <div class="card-container">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="https://th-thumbnailer.cdn-si-edu.com/NaExfGA1op64-UvPUjYE5ZqCefk=/fit-in/1600x0/filters:focal(1471x1061:1472x1062)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg" alt="Taj Mahal">
+                        </div>
+                        <div class="card-back">Taj Mahal, India: A white marble mausoleum built by Emperor Shah Jahan.</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Card 3 Front</h5>
-            </div>
-            <div class="flip-card-back">
-              <p>This is the back of Card 3 with more information.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
