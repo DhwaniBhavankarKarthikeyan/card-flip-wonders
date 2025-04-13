@@ -1,4 +1,3 @@
-Here's a clean and detailed **README.md** for your "7 Wonders of the World" flip card project, perfect for showcasing it on GitHub. It includes a project overview, steps to run it, and a sample shell script for setup:
 
 ---
 
