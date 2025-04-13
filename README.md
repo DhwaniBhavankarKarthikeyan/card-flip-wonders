@@ -67,7 +67,7 @@ You can use this script to quickly clone and open the project (for Linux/macOS):
 #!/bin/bash
 
 # Clone the repository
-git clone https://github.com/yourusername/7-wonders-flipcard.git
+git clone https://github.com/DhwaniBhavankarKarthikeyan/card-flip-wonders
 
 # Move into the directory
 cd 7-wonders-flipcard
